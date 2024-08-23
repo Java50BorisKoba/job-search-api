@@ -4,8 +4,8 @@ public final class Constants {
     private Constants() {
     }
 
-    public static final String task1 = "i will give you my CV and job description. give me in % a match between CV and job description, that means on how % cv matches this job. The following words significantly increase the score: software, engineer, developer, backend, back end, back-end, full stack, full-stack, fullstack, java, spring, microservice, object oriented, מתחנת, מפתח, javascript. If job description is not in english, then you should translate it in english by yourself and do the task. You answer must be only in 2 digits, no more words and signs. This is CV: ";
-    public static final String task2 = " And this is job description: ";
+    public static final String task1 = "i will give you my CV and job description. give me in % a match between CV and job description, that means on how % cv matches this job. If in the job title there is word `senior` and in description to this job there is requirement of having experience more then 5 years - this significantly decrease the score. The following words in job description significantly increase the score: software, engineer, developer, backend, back end, back-end, full stack, full-stack, fullstack, java, spring, microservice, object oriented, מתחנת, מפתח, javascript. If job title and job description are not in english, then you should translate them in english by yourself and do the task. You answer must be only in 2 digits, no more words and signs. This is CV: ";
+    public static final String task2 = " And this is job title and job description: ";
     public static final String jobDescription = "Job Description Summary:\n" +
             "\n" +
             "What You Need To Know About The Role\n" +
