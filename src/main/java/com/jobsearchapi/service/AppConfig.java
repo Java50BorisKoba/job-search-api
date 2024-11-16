@@ -1,4 +1,4 @@
-package com.danielkleyman.jobsearchapi.service;
+package com.jobsearchapi.service;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;

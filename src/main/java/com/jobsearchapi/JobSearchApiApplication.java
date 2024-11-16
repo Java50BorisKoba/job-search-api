@@ -1,4 +1,4 @@
-package com.danielkleyman.jobsearchapi;
+package com.jobsearchapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

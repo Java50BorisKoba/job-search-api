@@ -1,4 +1,4 @@
-package com.danielkleyman.jobsearchapi.service;
+package com.jobsearchapi.service;
 
 import org.apache.poi.common.usermodel.HyperlinkType;
 import org.apache.poi.ss.usermodel.*;
