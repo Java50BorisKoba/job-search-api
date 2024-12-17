@@ -16,7 +16,7 @@ public class AIService {
 
     private final RestTemplate restTemplate;
     private final String apiUrl = "https://api.openai.com/v1/chat/completions";
-    private final String apiKey = System.getenv("API_KEY"); // Используйте переменную окружения
+    private final String apiKey = System.getenv("API_KEY"); 
     private final ObjectMapper objectMapper = new ObjectMapper();
 
     public AIService(RestTemplate restTemplate) {
